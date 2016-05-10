@@ -2,7 +2,7 @@
 #include <math.h>
 #define MaxProduct 50
 /*	fourier-calculated atomic functions		*/
-/*	version 0.1					*/
+/*	version 0.2					*/
 /*							*/
 /*	structure: 					*/
 /*	f_XXXX(double x, ... ) - atomic function "XXXX"	*/
@@ -146,6 +146,7 @@ double f_Bspl(double x, double n)
 	}
 	return y*2./(n+1.);
 }
+/*
 //used for debug
 int main()
 {
@@ -157,4 +158,4 @@ int main()
 	fclose(graph);
 	return 0;
 }
-
+*/
