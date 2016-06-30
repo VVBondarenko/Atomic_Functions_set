@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 #define MaxProduct 50
-/*	fourier-calculated atomic functions		*/
-/*	version 0.2					*/
-/*							*/
-/*	structure: 					*/
+/*	fourier-calculated atomic functions				*/
+/*	version 0.2										*/
+/*													*/
+/*	structure: 										*/
 /*	f_XXXX(double x, ... ) - atomic function "XXXX"	*/
-/*	F_XXXX(double t, ... ) - image of "XXXX"*/
+/*	F_XXXX(double t, ... ) - image of "XXXX" 		*/
 /*	o_XXXX(...) - any other function, used further	*/
-/*							*/
-/*							*/
+/*													*/
+/*													*/
 
 double o_sinc(double x)
 {
